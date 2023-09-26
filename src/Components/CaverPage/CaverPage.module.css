@@ -36,7 +36,7 @@
    background-color: var(--colorHeader);
    border-radius: 0.5em;
    border: 3px solid rgb(223, 218, 218);
-   box-shadow: 0 8px 15px 0 rgba(0,0,0,0.3), 0 5px 21px 0 rgba(0,0,0,0.18);
+   box-shadow: inset 7px 5px 20px 10px rgb(104 89 89 / 33%), inset -10px -9px 16px 14px rgb(40 18 18 / 84%);
    -webkit-clip-path:polygon(25% 0%,70% 0%,75.57% 19.04%,95% 35%,92.41% 89.02%,58.72% 97.94%,17.59% 87.91%,0% 55%);
    clip-path: polygon(25% 0%,70% 0%,75.57% 19.04%,95% 35%,92.41% 89.02%,58.72% 97.94%,17.59% 87.91%,0% 55%);
   }
@@ -277,7 +277,7 @@
     position: absolute;
     top: 92%;
     left: 38%;
-    background-color: #47bf80f2;
+    background-color: #936fc9f7;
     border-radius: 6%;
     padding: 1.2em;
     /* opacity: 0.5; */
