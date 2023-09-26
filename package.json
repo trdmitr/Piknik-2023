@@ -2,7 +2,7 @@
   "name": "piknik-2023",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://trdmitr.github.io/piknik-2023/",
+  "homepage": "https://trdmitr.github.io/Piknik-2023/",
   "dependencies": {
     "papaparse": "^5.3.2",
     "react": "^18.2.0",
