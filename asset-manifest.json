@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/piknik-2023/static/css/main.d4b248f4.css",
+    "main.js": "/piknik-2023/static/js/main.2aa560cb.js",
+    "index.html": "/piknik-2023/index.html",
+    "main.d4b248f4.css.map": "/piknik-2023/static/css/main.d4b248f4.css.map",
+    "main.2aa560cb.js.map": "/piknik-2023/static/js/main.2aa560cb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4b248f4.css",
+    "static/js/main.2aa560cb.js"
+  ]
+}
