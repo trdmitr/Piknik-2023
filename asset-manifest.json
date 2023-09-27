@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Piknik-2023/static/css/main.d4b248f4.css",
+    "main.css": "/Piknik-2023/static/css/main.04ac4dd3.css",
     "main.js": "/Piknik-2023/static/js/main.2aa560cb.js",
     "index.html": "/Piknik-2023/index.html",
-    "main.d4b248f4.css.map": "/Piknik-2023/static/css/main.d4b248f4.css.map",
+    "main.04ac4dd3.css.map": "/Piknik-2023/static/css/main.04ac4dd3.css.map",
     "main.2aa560cb.js.map": "/Piknik-2023/static/js/main.2aa560cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4b248f4.css",
+    "static/css/main.04ac4dd3.css",
     "static/js/main.2aa560cb.js"
   ]
 }
