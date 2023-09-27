@@ -104,4 +104,4 @@ const audioList = [...audiosongs1, ...audiosongs2, ...audiosongs3, ...audiosongs
   )
 }
 
-export default React.memo(Player) 
+export default Player
