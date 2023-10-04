@@ -19,7 +19,7 @@ class SinglPage extends Component {
 
 // }
     render() {
-      const { songs} = this.props
+      const { songs, fetchData} = this.props
       // console.log(songs)
       const singls =  songs.filter(songs => songs.id === this.props.params.id);
       // console.log(singls)
@@ -48,7 +48,7 @@ class SinglPage extends Component {
             {videoSource(song.video3, song.video_name3)}
           </div>
           {tzitata(song.picture)}  
-          <Link to="/cavers"><button className={classes.bTnSing}>Назад</button></Link>                    
+          <Link to="/cavers"><button className={classes.bTnSing}onClick={fetchData}>Назад</button></Link>                    
         </div>
           
         )

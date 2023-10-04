@@ -58,14 +58,14 @@ class App extends Component {
     if (songs.length === 0) {
       return  null
     }
-    // console.log(songs);
+    console.log(songs);
     return (
       <Fragment>
         <Router>
           <Routes>
-            <Route exact path="/" element={<HomePage />} />
+            <Route exact path="/" element={<HomePage fetchData = {this.fetchData}/>} />
             <Route path="/cavers" element={<CaverPage songs={songs} isLoading={isLoading} />} />
-            <Route path="/cavers/:id" element={<SinglPage songs = {songs} />} />
+          <Route path="/cavers/:id" element={<SinglPage songs = {songs} fetchData = {this.fetchData} />} />
             <Route path="*" element={<Notfound />} />
           </Routes>
         </Router>
